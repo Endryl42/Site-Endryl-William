@@ -12,8 +12,8 @@ body {
     background-color: whitesmoke;
 }
 .menu ul {
-    display: flex;
-    justify-content: center;
+    display:flex;
+    justify-content: space-around;
 }
 .menu li {
     list-style: none;
@@ -21,18 +21,18 @@ body {
 
 a {
     color: teal;
-    text-decoration: none;
+    text-decoration:  none;
     transition: 0.3s;
 }
 a:hover {
     text-decoration: underline;
-    color: teal;
-    background-color: whitesmoke;
+    background-color: teal;
+    color: whitesmoke;
 }
 
 .site-subtitle,
-.site-title {
-    background-color: whitesmoke;
+.site-title{
+    color:whitesmoke;
     text-align: center;
 }
 .site-subtitle {
